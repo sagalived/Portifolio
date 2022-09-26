@@ -332,6 +332,20 @@ p {
 /* End Services Section */
 
 /* Projects section */
+
+#projects, #about, #contact{
+	flex-direction: column;
+	background-color: rgb(5, 5, 5);
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+.sobre-mim{
+	color: white;
+}
+.about-me{
+	color: white;
+}
 #projects .projects {
 	flex-direction: column;
 	max-width: 1200px;
@@ -372,6 +386,9 @@ p {
 	flex-direction: column;
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	color: white;
+}
+.projects-header{
+background-color: #000000;
 }
 #projects .project-info h1 {
 	font-size: 4rem;
